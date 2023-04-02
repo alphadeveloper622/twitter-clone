@@ -80,5 +80,15 @@
     "@typescript-eslint/consistent-type-imports": "warn",
     "@typescript-eslint/prefer-nullish-coalescing": "warn",
     "@typescript-eslint/explicit-function-return-type": "warn"
-  }
+  },
+  "overrides": [{
+    "rules": {
+      "prettier/prettier": [
+        "error",
+        {
+          "singleQuote": true,
+          "endOfLine": "auto"
+        }
+      ]}
+  }]
 }
