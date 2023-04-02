@@ -19,11 +19,19 @@
     }
   },
   "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": true,
+        "endOfLine": "auto"
+      }
+    ],
+    "linebreak-style":0,
     "semi": ["error", "always"],
     "curly": ["warn", "multi"],
     "quotes": ["error", "single", { "avoidEscape": true }],
     "jsx-quotes": ["error", "prefer-single"],
-    "linebreak-style": ["error", "windows"],
+    // "linebreak-style": ["error", "windows"],
     "no-console": "warn",
     "comma-dangle": ["error", "never"],
     "no-unused-expressions": "error",
