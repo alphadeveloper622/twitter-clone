@@ -31,7 +31,7 @@
     "curly": ["warn", "multi"],
     "quotes": ["error", "single", { "avoidEscape": true }],
     "jsx-quotes": ["error", "prefer-single"],
-    // "linebreak-style": ["error", "windows"],
+    "linebreak-style": ["error", "linux"],
     "no-console": "warn",
     "comma-dangle": ["error", "never"],
     "no-unused-expressions": "error",
