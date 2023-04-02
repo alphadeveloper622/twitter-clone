@@ -17,9 +17,9 @@ export function LoginMain(): JSX.Element {
           layout='fill'
           useSkeleton
         />
-        <i className='absolute'>
+        {/* <i className='absolute'>
           <CustomIcon className='h-96 w-96 text-white' iconName='TwitterIcon' />
-        </i>
+        </i> */}
       </div>
       <div className='flex flex-col items-center justify-between gap-6 p-8 lg:items-start lg:justify-center'>
         <i className='mb-0 self-center lg:mb-10 lg:self-auto'>
