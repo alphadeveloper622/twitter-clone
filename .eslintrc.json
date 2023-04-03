@@ -19,19 +19,12 @@
     }
   },
   "rules": {
-    "prettier/prettier": [
-      "error",
-      {
-        "singleQuote": true,
-        "endOfLine": "auto"
-      }
-    ],
     // "linebreak-style":0,
     "semi": ["error", "always"],
     "curly": ["warn", "multi"],
     "quotes": ["error", "single", { "avoidEscape": true }],
     "jsx-quotes": ["error", "prefer-single"],
-    "linebreak-style": ["error", "linux"],
+    "linebreak-style": ["error", "windows"],
     "no-console": "warn",
     "comma-dangle": ["error", "never"],
     "no-unused-expressions": "error",
@@ -80,15 +73,5 @@
     "@typescript-eslint/consistent-type-imports": "warn",
     "@typescript-eslint/prefer-nullish-coalescing": "warn",
     "@typescript-eslint/explicit-function-return-type": "warn"
-  },
-  "overrides": [{
-    "rules": {
-      "prettier/prettier": [
-        "error",
-        {
-          "singleQuote": true,
-          "endOfLine": "auto"
-        }
-      ]}
-  }]
+  }
 }
