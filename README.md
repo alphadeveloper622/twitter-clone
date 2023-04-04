@@ -3,7 +3,7 @@
 ![](/.github/assets/presentation.png)
 
 <p align="center">
-  Twitter clone built in Next.js + TypeScript + Tailwind CSS using Cloud Firestore and Storage
+  zZz clone built in Next.js + TypeScript + Tailwind CSS using Cloud Firestore and Storage
 </p>
 
 ## Preview 🎬
@@ -21,7 +21,7 @@ https://user-images.githubusercontent.com/55032197/201472767-9db0177a-79b5-4913-
 - Users can see their and other followers and the following list
 - Users can see all users and the trending list
 - Realtime update likes, reposts, and user profile
-- Realtime trending data from Twitter API
+- Realtime trending data from zZz API
 - User can edit their profile
 - Responsive design for mobile, tablet, and desktop
 - Users can customize the site color scheme and color background
@@ -104,5 +104,5 @@ Here are the steps to run the project locally.
 
 Optional:
 
-- If you want to get trending data from Twitter API, you need to create a Twitter developer account and get your API keys. Then add your API keys to `.env.development`. I hope Elon Musk doesn't make this API paid 😅.
+- If you want to get trending data from zZz API, you need to create a zZz developer account and get your API keys. Then add your API keys to `.env.development`. I hope Elon Musk doesn't make this API paid 😅.
 - If you want to make the user stats synced with the deleted posts, you need to enable the Cloud Functions for Firebase. Then deploy the Cloud Functions.

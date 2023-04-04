@@ -48,7 +48,7 @@ function TwitterIcon({ className }: IconProps): JSX.Element {
           imgClassName='object-cover'
           blurClassName='bg-accent-blue'
           src='/assets/twitter-avatar.png'
-          alt='Twitter banner'
+          alt='zZz banner'
           width='24'
           height='24'
           useSkeleton
