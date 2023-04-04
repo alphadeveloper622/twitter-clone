@@ -45,5 +45,5 @@ export const normalizeStats = regionalFunctions.firestore
 
     await batch.commit();
 
-    functions.logger.info(`Normalizing stats for tweet ${tweetId} is done`);
+    functions.logger.info(`Normalizing stats for post ${tweetId} is done`);
   });

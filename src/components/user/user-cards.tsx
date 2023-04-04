@@ -23,15 +23,15 @@ type NoStatsData = Record<CombinedTypes, StatsEmptyProps>;
 
 const allNoStatsData: Readonly<NoStatsData> = {
   retweets: {
-    title: 'Amplify Tweets you like',
-    imageData: { src: '/assets/no-retweets.png', alt: 'No retweets' },
+    title: 'Amplify Posts you like',
+    imageData: { src: '/assets/no-retweets.png', alt: 'No reposts' },
     description:
-      'Share someone else’s Tweet on your timeline by Retweeting it. When you do, it’ll show up here.'
+      'Share someone else’s Post on your timeline by Reposting it. When you do, it’ll show up here.'
   },
   likes: {
-    title: 'No Tweet Likes yet',
+    title: 'No Post Likes yet',
     imageData: { src: '/assets/no-likes.png', alt: 'No likes' },
-    description: 'When you like a Tweet, it’ll show up here.'
+    description: 'When you like a Post, it’ll show up here.'
   },
   following: {
     title: 'Be in the know',
@@ -42,7 +42,7 @@ const allNoStatsData: Readonly<NoStatsData> = {
     title: 'Looking for followers?',
     imageData: { src: '/assets/no-followers.png', alt: 'No followers' },
     description:
-      'When someone follows this account, they’ll show up here. Tweeting and interacting with others helps boost followers.'
+      'When someone follows this account, they’ll show up here. Posting and interacting with others helps boost followers.'
   }
 };
 
@@ -53,7 +53,7 @@ export function UserCards({
   loading
 }: UserCardsProps): JSX.Element {
   const noStatsData = allNoStatsData[type];
-  const modal = ['retweets', 'likes'].includes(type);
+  const modal = ['reposts', 'likes'].includes(type);
 
   return (
     <section

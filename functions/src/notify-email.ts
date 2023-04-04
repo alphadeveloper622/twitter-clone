@@ -32,7 +32,7 @@ export const notifyEmail = regionalFunctions.firestore
 
     const emailText = `${text ?? 'No text provided'}${
       images ? ` (${imagesLength} image${imagesLength > 1 ? 's' : ''})` : ''
-    }\n\nLink to Tweet: ${tweetLink}\n\n- Firebase Function.`;
+    }\n\nLink to Post: ${tweetLink}\n\n- Firebase Function.`;
 
     await client.sendMail({
       from: EMAIL_API.value(),
