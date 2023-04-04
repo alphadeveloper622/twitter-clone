@@ -35,17 +35,18 @@ const options: Readonly<Options> = [
     name: 'Emoji',
     iconName: 'FaceSmileIcon',
     disabled: true
-  },
-  {
-    name: 'Schedule',
-    iconName: 'CalendarDaysIcon',
-    disabled: true
-  },
-  {
-    name: 'Location',
-    iconName: 'MapPinIcon',
-    disabled: true
   }
+  //,
+  // {
+  //   name: 'Schedule',
+  //   iconName: 'CalendarDaysIcon',
+  //   disabled: true
+  // },
+  // {
+  //   name: 'Location',
+  //   iconName: 'MapPinIcon',
+  //   disabled: true
+  // }
 ];
 
 type InputOptionsProps = {
